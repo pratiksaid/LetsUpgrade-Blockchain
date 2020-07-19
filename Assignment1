@@ -1,0 +1,33 @@
+1) What is your understanding of Blockchain ?
+-Blockchain is used for record the information in to the system and its very difficult or
+ impossible to hack and change.
+-Blockchain is mix of technology of distributed database and cryptography.
+-blockchain is essentially a digital ledger of transactions that is duplicated and distributed
+ Across the entire network of computer systems on blockchain.
+ 
+ 
+2) what is the core problem blockchain trying to solve ?
+-Blockchain addresses the problem of data loss due to hardware or connectivity issues.
+-Digital copyrights and piracy issues.
+-security issues.
+
+
+3) What are the few features which blockchain will give you ?
+-Decentralized technology.
+-Enhanced Security.
+-Distributed Ledgers.
+-Consensus.
+-can not corrupt.
+
+
+4) What all things does a Block contain ?
+-Block Number
+-record of all transactions.
+-signature of previous block.
+-mining key.
+
+
+5) How is the verifiability of Blockchain is been attained ?
+- A blockchain is a series of records linked by a hash code. The hash code is generated with the
+current data and the previous hash code of the block. If the data has changed and it will also be
+verified by other users.

@@ -1,0 +1,24 @@
+pragma solidity ^0.4.17;
+
+contract Employee {
+  string public empid;
+  string public name;
+  string public dob;
+  string public salary;
+
+ function Employee(string newEmp_ID, string newName, string newDate_of_Birth, string newSalary) public {
+  empid = newEmp_ID;
+  name = newName;
+  dob = newDate_of_Birth;
+  salary = newSalary; }
+
+function setDetails(string newEmp_ID, string newName, string newDate_of_Birth, string newSalary) public {
+  empid = newEmp_ID;
+  name = newName;
+  dob = newDate_of_Birth;
+  salary = newSalary; }
+
+function getdetails() public view returns(string,string,string,string)
+{
+return (empid, name, dob, salary);
+}

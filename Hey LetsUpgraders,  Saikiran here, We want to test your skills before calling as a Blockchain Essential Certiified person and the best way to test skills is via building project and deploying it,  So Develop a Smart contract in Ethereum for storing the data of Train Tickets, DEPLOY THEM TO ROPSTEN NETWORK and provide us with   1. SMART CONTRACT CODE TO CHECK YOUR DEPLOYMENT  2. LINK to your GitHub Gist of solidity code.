@@ -1,0 +1,24 @@
+pragma solidity ^0.4.17;
+
+contract Trainticket {
+  string public ticketid;
+  string public passname;
+  string public starting;
+  string public destination;
+
+ function Train(string newTicketid, string newPassangerName, string newStarting, string newDestination) public {
+  ticketid = newTicketid;
+  passname = newPassangerName;
+  starting = newStarting;
+  destination= newDestination; }
+
+function setDetails(string newTicketid, string newPassangerName, string newStarting, string newDestination) public {
+  ticketid = newTicketid;
+  passname = newPassangerName;
+  starting = newStarting;
+  destination= newDestination; }
+
+function getdetails() public view returns(string,string,string,string)
+{
+return (ticketid , passname , starting , destination);
+}
